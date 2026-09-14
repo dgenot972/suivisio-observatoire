@@ -1,0 +1,318 @@
+{
+  "date": "2026-09-14",
+  "title": "La quotidienne — déstockages, marchés et opportunités",
+  "summary": "Bonjour David. Voici votre première quotidienne SUIVISIO du 14 septembre 2026.\n\nTrois priorités. D’abord, examiner le marché de maîtrise d’œuvre de la voie de Gashette au Robert. L’avis annonce une remise le 18 septembre à midi et une visite obligatoire. Il faut confirmer les modalités de visite, le fuseau et les éventuels rectificatifs avant de décider. Ensuite, regarder l’opération SIMAR Gérard Nouvet, 18 logements au Robert : les lots éclairage public et installations électriques peuvent intéresser votre réseau, avec une échéance annoncée au 2 octobre. Enfin, comparer les achats sur leur coût livré en Martinique.\n\nPour les déstockages, trois fiches Domomat ont été repérées : un mastic Bostik à 11 euros 96 TTC, un platoir inox à 12 euros 60, et dix lames de racloir à 7 euros 44. Ce sont des prix affichés, à revalider ; la livraison DOM n’est pas confirmée. Ces petits achats ont surtout un intérêt potentiel dans un panier groupé. Würth Martinique n’annonce aucun déstockage en cours sur sa page consultée.\n\nSur les marchés, la Martinique et la Guadeloupe montrent une conjoncture plus fragile. La Guyane présente un signal plus favorable. À Mayotte, le ralentissement se confirme ; à La Réunion, le dernier repère consulté date du 31 août.\n\nSur les coûts, le dernier tableau INSEE vérifié porte sur juin : l’indice tous corps d’état progresse de 0,29 pour cent sur un mois, l’électricité est stable et l’étanchéité augmente de 2,81 pour cent. Ce ne sont pas des cours du jour. La prochaine publication est annoncée pour le 15 septembre.\n\nCôté innovation, BATIMAT se tiendra du 28 septembre au premier octobre. Pour le design, Maison et Objet se termine aujourd’hui et Paris Design Week continue jusqu’au 19. En mode, exploitez les exposants de Première Vision après son édition de septembre.\n\nDans les Caraïbes, Saint-Vincent présente un nouveau plan de développement des entreprises. C’est un signal à suivre, pas un marché travaux ouvert. La vigilance météo du jour n’a pas pu être confirmée dans les pages dynamiques. Les sources, échéances et limites figurent sous chaque fiche.",
+  "coverage": "Première édition manuelle, collecte du 14 septembre 2026. Actualités des 7 derniers jours, complétées par indices disponibles, offres affichées et événements pertinents explicitement datés. Couverture partielle : 5 DOM, France, Saint-Vincent ; AO sur avis légaux sans DCE ni rectificatifs ; aucun AO hors DOM confirmé. Stocks/prix vendeurs à revalider (indexation ancienne), fret DOM non chiffré. Pas de cours spot cuivre/acier, change ni tarif fret du jour vérifiés. Aucune nouveauté technique électricité/lighting suffisamment documentée pour recommandation produit. Vigilance météo non confirmée. Aucun contact ni achat.",
+  "items": [
+    {
+      "id": "iedom-mq-2026t2",
+      "zone": "DOM",
+      "topic": "marches",
+      "title": "Martinique — le climat des affaires recule",
+      "summary": "Publication du 8 septembre : l’ICA atteint 99,9 au T2 2026, en baisse de 2,5 points. L’IEDOM relève une fragilisation de la consommation et de l’investissement, avec des délais de paiement encore élevés.",
+      "action": "Lecture opérationnelle : privilégier les projets financés et intégrer le délai d’encaissement dans les décisions d’achat.",
+      "published": "2026-09-08",
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://www.iedom.fr/Les-tendances-conjoncturelles-au-2e-trimestre-2026-12293?lang=fr"
+        }
+      ]
+    },
+    {
+      "id": "iedom-gp-2026t2",
+      "zone": "DOM",
+      "topic": "marches",
+      "title": "Guadeloupe — conjoncture plus fragile",
+      "summary": "L’IEDOM décrit au T2 2026 un recul du climat des affaires, qui reste au-dessus de sa moyenne de long terme. Note publiée le 7 septembre.",
+      "action": "Lecture opérationnelle : qualifier les besoins réels avant de constituer des stocks importants.",
+      "published": "2026-09-07",
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://www.iedom.fr/Tendances-conjoncturelles-2e-trimestre-2026?lang=fr"
+        }
+      ]
+    },
+    {
+      "id": "iedom-gf-2026t2",
+      "zone": "DOM",
+      "topic": "marches",
+      "title": "Guyane — un signal de demande plus favorable",
+      "summary": "Publication du 7 septembre : l’ICA progresse de 1,1 point à 105,2 au T2 2026. Les carnets de commandes sont décrits comme nettement supérieurs à leur moyenne de longue période.",
+      "action": "Piste de prospection : examiner les projets et partenaires guyanais ; cet indicateur ne constitue pas un marché disponible.",
+      "published": "2026-09-07",
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://www.iedom.fr/Les-tendances-conjoncturelles-au-2e-trimestre-2026?lang=fr"
+        }
+      ]
+    },
+    {
+      "id": "iedom-yt-2026t2",
+      "zone": "DOM",
+      "topic": "marches",
+      "title": "Mayotte — ralentissement confirmé",
+      "summary": "La note IEDOM du 8 septembre confirme le ralentissement du début d’année après la reprise post-Chido.",
+      "action": "Lecture opérationnelle : distinguer besoin de reconstruction et commande effectivement financée.",
+      "published": "2026-09-08",
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://www.iedom.fr/Les-tendances-conjoncturelles-2e-trimestre-2026?lang=fr"
+        }
+      ]
+    },
+    {
+      "id": "iedom-re-2026t2",
+      "zone": "DOM",
+      "topic": "marches",
+      "title": "La Réunion — contexte de fond à surveiller",
+      "summary": "Dernier repère consulté, publié le 31 août (hors fenêtre des sept jours) : ICA à 100,1, en baisse de 3,6 points au T2. Inflation annuelle à +1,5 % fin juin.",
+      "action": "Prendre en compte la sensibilité des coûts de transport ; aucune nouvelle statistique locale du jour n’est affirmée.",
+      "published": "2026-08-31",
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://www.iedom.fr/Tendances-conjoncturelles-au-2e-trimestre-2026?lang=fr"
+        }
+      ]
+    },
+    {
+      "id": "insee-index-2026-06",
+      "zone": "France",
+      "topic": "cours",
+      "title": "Coûts BTP — BT01 +0,29 %, étanchéité +2,81 %",
+      "summary": "Dernier tableau vérifié : mai → juin 2026, base 100 en 2010. BT01 : 137,9 → 138,3 (+0,29 %) ; BT47 électricité : 135,1 → 135,1 (0 %) ; BT53 étanchéité : 142,6 → 146,6 (+2,81 %). Variations calculées sur la même série. Ce sont des indices nationaux, pas des prix fournisseur DOM ni des cours du jour.",
+      "action": "Vérifier l’index adapté aux devis. La publication de juillet est annoncée le 15 septembre à 12 h sur le site de l’INSEE.",
+      "published": "2026-08-14",
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://www.insee.fr/fr/statistiques/9036534"
+        }
+      ]
+    },
+    {
+      "id": "batimat-2026",
+      "zone": "France",
+      "topic": "innovation",
+      "title": "BTP & technologies — préparer BATIMAT",
+      "summary": "BATIMAT est annoncé du 28 septembre au 1er octobre à Paris Porte de Versailles : matériels de chantier, photovoltaïque, solutions numériques et construction modulaire. Le programme Innovation Awards référence 110 innovations nommées.",
+      "action": "Présélectionner fournisseurs et démonstrations ; demander domaine d’emploi DOM, maintenance, formation et coût rendu chantier. Un prix d’innovation ne prouve pas l’aptitude tropicale.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": "28 septembre – 1er octobre 2026, Paris",
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://www.batimat.com/"
+        },
+        {
+          "title": "Innovation Awards — programme",
+          "url": "https://www.batimat.com/en-gb/program/innovation-awards.html"
+        }
+      ]
+    },
+    {
+      "id": "maison-objet-2026",
+      "zone": "France",
+      "topic": "design",
+      "title": "Design — Maison&Objet et Paris Design Week",
+      "summary": "Maison&Objet est annoncé du 10 au 14 septembre ; l’édition se termine aujourd’hui. Paris Design Week se poursuit jusqu’au 19 septembre. Le salon rassemble décoration, métiers d’art et accessoires de mode.",
+      "action": "Depuis les DOM, exploiter la liste des exposants pour préparer une sélection de mobilier, matières et éclairage plutôt qu’un déplacement de dernière minute.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": "Paris Design Week : jusqu’au 19 septembre 2026",
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://www.maison-objet.com/paris/visiter"
+        }
+      ]
+    },
+    {
+      "id": "pv-2026-sept",
+      "zone": "France",
+      "topic": "mode",
+      "title": "Mode — sourcing après Première Vision",
+      "summary": "L’édition des 1er–3 septembre est passée. Le site conserve la liste des exposants de septembre et annonce un rapport de saison automne-hiver 2027–2028 à venir ; la prochaine édition affichée est du 26 au 28 janvier 2027.",
+      "action": "Consulter les exposants pour les textiles et accessoires. Aucun déstockage textile ni prix de gros vérifié dans cette édition.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://paris.premierevision.com/"
+        }
+      ]
+    },
+    {
+      "id": "cdb-svg-20260908",
+      "zone": "Caraïbes",
+      "topic": "caraibes",
+      "title": "Saint-Vincent — soutien au développement des entreprises",
+      "summary": "La CDB annonce le 8 septembre le plan stratégique 2026–2030 du Centre for Enterprise Development. Le plan d’investissement associé atteint 4,64 millions USD, dont 3,3 millions pour l’entrepreneuriat. Il s’agit d’un programme de développement, pas d’un appel d’offres travaux ouvert.",
+      "action": "Surveiller les dispositifs et partenariats qui seront publiés ; vérifier les critères d’éligibilité avant d’envisager une démarche.",
+      "published": "2026-09-08",
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://www.caribank.org/newsroom/news-and-events/cdb-support-strengthens-enterprise-development-st-vincent-and-grenadines"
+        }
+      ]
+    },
+    {
+      "id": "meteo-coverage-20260914",
+      "zone": "Caraïbes",
+      "topic": "caraibes",
+      "title": "Vigilance — état du jour non confirmé",
+      "summary": "Le portail Météo-France Antilles-Guyane est accessible, mais les niveaux en cours ne sont pas lisibles dans l’extraction dynamique. Aucune conclusion de sécurité ou d’absence d’alerte ne peut en être tirée.",
+      "action": "Consulter le bulletin officiel territorial avant toute décision de chantier ou de transport.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Source vérifiée",
+          "url": "https://meteofrance.gp/fr/vigilance-meteo-antilles-guyane"
+        }
+      ]
+    },
+    {
+      "id": "destock-bostik-30614111",
+      "zone": "France",
+      "topic": "achats",
+      "title": "Déstockage — Mastic Bostik MSP 107 blanc, 290 ml",
+      "summary": "Domomat · référence 30614111. Prix affiché 11,96 € TTC, prix barré vendeur 17,09 € TTC ; stock affiché 4. Fiche ouverte, mais indexation annoncée ancienne : prix et disponibilité à revalider. Prix HT, date de fin, livraison et coût rendu DOM non confirmés.",
+      "action": "Intérêt à comparer dans un panier groupé : fret, fiscalité, disponibilité et, pour le mastic, date de conservation. Aucun achat déclenché.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Fiche du vendeur Domomat",
+          "url": "https://www.domomat.com/67360-mastic-de-fixation-et-d-etancheite-msp-107-bostik-290-ml-blanc-bostik-30614111.html"
+        }
+      ]
+    },
+    {
+      "id": "destock-platoir-2074008",
+      "zone": "France",
+      "topic": "achats",
+      "title": "Déstockage — Platoir trapèze inox 20 × 8 cm",
+      "summary": "Domomat · référence 2074008. Prix affiché 12,60 € TTC, prix barré vendeur 19,87 € TTC ; stock affiché 5. Fiche ouverte, mais indexation annoncée ancienne : prix et disponibilité à revalider. Prix HT, date de fin, livraison et coût rendu DOM non confirmés.",
+      "action": "Intérêt à comparer dans un panier groupé : fret, fiscalité, disponibilité et, pour le mastic, date de conservation. Aucun achat déclenché.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Fiche du vendeur Domomat",
+          "url": "https://www.domomat.com/67113-platoir-trapeze-inox-20x8cm-generique-2074008.html"
+        }
+      ]
+    },
+    {
+      "id": "destock-lames-1261000",
+      "zone": "France",
+      "topic": "achats",
+      "title": "Déstockage — Étui de 10 lames de racloir, 10 cm",
+      "summary": "Domomat · référence 1261000. Prix affiché 7,44 € TTC, prix barré vendeur 13,58 € TTC ; stock affiché 5. Fiche ouverte, mais indexation annoncée ancienne : prix et disponibilité à revalider. Prix HT, date de fin, livraison et coût rendu DOM non confirmés.",
+      "action": "Intérêt à comparer dans un panier groupé : fret, fiscalité, disponibilité et, pour le mastic, date de conservation. Aucun achat déclenché.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Fiche du vendeur Domomat",
+          "url": "https://www.domomat.com/67111-etui-de-10-lames-de-rechange-pour-racloir-10cm-generique-1261000.html"
+        }
+      ]
+    },
+    {
+      "id": "wurth-mq-destock-20260914",
+      "zone": "DOM",
+      "topic": "achats",
+      "title": "Déstockage Martinique — aucun en cours chez Würth sur la page consultée",
+      "summary": "La rubrique du vendeur indique ne pas proposer de déstockage en cours. Les anciens catalogues n’ont pas été repris comme offres actuelles.",
+      "action": "Conserver cette source dans la veille, sans supposer qu’une promotion est disponible.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": null,
+      "sources": [
+        {
+          "title": "Würth Martinique — déstockage",
+          "url": "https://www.wurth-caraibes.com/destockage-wurth-outre-mer/destockage-martinique/"
+        }
+      ]
+    },
+    {
+      "id": "robert-gashette-2026",
+      "zone": "DOM",
+      "topic": "ao",
+      "title": "AO — Gashette au Robert : visite obligatoire",
+      "summary": "Ville du Robert : maîtrise d’œuvre de l’élargissement de la voie de Gashette, référence DSTM/2026/S001. L’avis indique une visite obligatoire avec attestation. Enveloppe travaux estimée : 800 000 € HT, distincte des honoraires. Échéance future selon l’avis légal ; DCE et rectificatifs du profil acheteur non contrôlés.",
+      "action": "Priorité : récupérer RC et DCE, confirmer immédiatement les modalités de visite et le fuseau horaire. Go conditionnel à la compétence maîtrise d’œuvre/VRD, à la visite et à la capacité de déposer.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": "18 septembre 2026, 12 h — fuseau non explicité dans l’avis",
+      "sources": [
+        {
+          "title": "Avis légal publié — France-Antilles",
+          "url": "https://co.franceantilles.fr/legales/0/marches/972/20511"
+        }
+      ]
+    },
+    {
+      "id": "simar-gerard-nouvet-2026",
+      "zone": "DOM",
+      "topic": "ao",
+      "title": "AO — SIMAR Gérard Nouvet : lots électricité",
+      "summary": "Construction de 18 logements au Robert. Référence SMO/ACP/WO/GERARDNOUVET/0826/011. L’avis liste notamment lot 02 éclairage public/BT et lot 19 installations électriques ; visite non obligatoire selon l’avis. Échéance future selon l’avis légal ; DCE et rectificatifs du profil acheteur non contrôlés.",
+      "action": "Examiner les lots 02 et 19 ; récupérer les DPGF et critères du RC. Go conditionnel au chiffrage, aux moyens et aux documents exigés.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": "2 octobre 2026, 12 h — fuseau à confirmer",
+      "sources": [
+        {
+          "title": "Avis légal publié — France-Antilles",
+          "url": "https://co.franceantilles.fr/legales/0/marches/972/20610"
+        }
+      ]
+    },
+    {
+      "id": "simar-allende-20706",
+      "zone": "DOM",
+      "topic": "ao",
+      "title": "AO — SIMAR Allende, lot 10 VRD",
+      "summary": "Réhabilitation résidence Allende, quartier Dillon à Fort-de-France : lot 10 VRD. Publication 20706 ; référence interne non disponible dans le texte consulté. Échéance future selon l’avis légal ; DCE et rectificatifs du profil acheteur non contrôlés.",
+      "action": "Récupérer le DCE avant décision : quantités, contraintes d’occupation et moyens nécessaires restent à vérifier.",
+      "published": null,
+      "checked": "2026-09-14T23:34:31.111Z",
+      "deadline": "2 octobre 2026, 12 h — fuseau à confirmer",
+      "sources": [
+        {
+          "title": "Avis légal publié — France-Antilles",
+          "url": "https://co.franceantilles.fr/legales/0/marches/972/20706"
+        }
+      ]
+    }
+  ]
+}

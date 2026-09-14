@@ -1,0 +1,138 @@
+[
+  {
+    "zone": "DOM",
+    "title": "Collectivité de Martinique",
+    "url": "https://www.collectivitedemartinique.mq/",
+    "usage": "Projets, investissements, appels à projets",
+    "limit": "Ne couvre pas tous les acheteurs.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "DOM",
+    "title": "IEDOM Martinique",
+    "url": "https://www.iedom.fr/Martinique?lang=fr",
+    "usage": "Conjoncture économique et sectorielle",
+    "limit": "Publications périodiques.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "DOM",
+    "title": "DEAL Martinique",
+    "url": "https://www.martinique.developpement-durable.gouv.fr/",
+    "usage": "Construction, aménagement et risques",
+    "limit": "Vérifier date et territoire des textes.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "Caraïbes",
+    "title": "Météo-France Antilles-Guyane",
+    "url": "https://meteofrance.gp/fr/vigilance-meteo-antilles-guyane",
+    "usage": "Vigilance et risques pour chantiers et transport",
+    "limit": "Niveaux dynamiques à consulter directement ; aucune alerte déduite automatiquement ici.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "France / DOM",
+    "title": "BOAMP",
+    "url": "https://www.boamp.fr/pages/entreprise-accueil/",
+    "usage": "Avis de marchés publics",
+    "limit": "Compléter avec les profils acheteurs.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "France / DOM",
+    "title": "PLACE",
+    "url": "https://www.marches-publics.gouv.fr/entreprise",
+    "usage": "Marchés de l’État",
+    "limit": "Ne couvre pas toutes les collectivités.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "France / DOM / UE",
+    "title": "TED",
+    "url": "https://ted.europa.eu/fr/",
+    "usage": "Avis de marchés européens",
+    "limit": "Dédoublonner avec BOAMP et profils acheteurs.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "France",
+    "title": "INSEE — BT01",
+    "url": "https://www.insee.fr/fr/statistiques/serie/001710986",
+    "usage": "Indice du bâtiment tous corps d’état",
+    "limit": "Extraction des valeurs non disponible lors de la vérification initiale. Indice différent du prix livré DOM.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "International",
+    "title": "LME — cuivre",
+    "url": "https://www.lme.com/en/metals/non-ferrous/lme-copper",
+    "usage": "Cours du cuivre",
+    "limit": "Vérifier contrat, date, unité, devise et conditions d’accès.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "France",
+    "title": "CSTB",
+    "url": "https://www.cstb.fr/",
+    "usage": "Innovations, évaluations et réemploi",
+    "limit": "Vérifier domaine d’emploi DOM.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "France / DOM",
+    "title": "ADEME",
+    "url": "https://www.ademe.fr/",
+    "usage": "Études, innovation, aides",
+    "limit": "Éligibilité territoriale à vérifier.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "France",
+    "title": "Rexel",
+    "url": "https://www.rexel.fr/frx/",
+    "usage": "Matériel électrique et éclairage",
+    "limit": "Prix, stock et livraison DOM à confirmer.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "France",
+    "title": "Hilti",
+    "url": "https://www.hilti.fr/",
+    "usage": "Outillage et fixation",
+    "limit": "Prix et livraison DOM à confirmer.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "France / international",
+    "title": "Schneider Electric",
+    "url": "https://www.se.com/fr/fr/",
+    "usage": "Électricité et gestion de l’énergie",
+    "limit": "Source fabricant ; disponibilité à confirmer.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "France / international",
+    "title": "Legrand",
+    "url": "https://www.legrand.fr/",
+    "usage": "Infrastructures électriques et numériques",
+    "limit": "Ne constitue pas une comparaison indépendante.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "Caraïbes",
+    "title": "Caribbean Development Bank",
+    "url": "https://www.caribank.org/work-with-us/procurement",
+    "usage": "Marchés des projets financés par la CDB",
+    "limit": "Éligibilité, pays, langue et échéance à vérifier.",
+    "checked": "2026-09-14"
+  },
+  {
+    "zone": "Caraïbes / international",
+    "title": "CMA CGM",
+    "url": "https://www.cma-cgm.com/latest-news?category=ports-terminals",
+    "usage": "Avis portuaires et logistiques",
+    "limit": "Source d’un transporteur. Aucune grille universelle de fret.",
+    "checked": "2026-09-14"
+  }
+]
