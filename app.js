@@ -1,4 +1,5 @@
 const $=s=>document.querySelector(s);
+let bulletin={},edition=new URLSearchParams(location.search).get('edition')==='morning'?'morning':'latest';
 let roles=[],briefing={},zone='all',topic='all',selectedAgent='redacteur',listening=false,recognition=null,speaking=false,busy=false,speechGeneration=0;
 function el(tag,text,cls){const n=document.createElement(tag);if(text)n.textContent=text;if(cls)n.className=cls;return n;}
 function link(url,title){try{const parsed=new URL(url);if(!['http:','https:'].includes(parsed.protocol))return null;const a=el('a',title||parsed.hostname);a.href=parsed.href;a.target='_blank';a.rel='noopener noreferrer';return a;}catch{return null;}}
@@ -28,6 +29,7 @@ function speak(text){
 async function command(text){
  const q=text.toLocaleLowerCase('fr').normalize('NFD').replace(/[\u0300-\u036f]/g,'').trim();
  if(/^(stop|arrete|arreter|silence)[.! ]*$/.test(q)){stopAudio();status('Lecture arrêtée.');resumeListening();return;}
+ if(/^(?:lis |lire |ecoute |montre |affiche )?(?:le )?briefing (?:de ce matin|du matin|de 7 ?h(?:eures)?)$/.test(q)){selectEdition('morning');readBrief();return;}
  if(/^(lis|ecoute|lire|resume|briefing|lis mon|lis le|ecouter le)[\s\S]*(briefing|synthese)$/.test(q)||q==='briefing'){readBrief();return;}
  if(/^(montre |affiche |ouvre |les |le )?(agents|specialistes)([.! ]*)$/.test(q)){show('team');speak('Treize spécialités sont présentées. Choisissez une rubrique à consulter.');return;}
  if(/^(montre |affiche |ouvre |les )?sources([.! ]*)$/.test(q)){show('sources');speak('Voici le catalogue des sources.');return;}
@@ -48,11 +50,24 @@ function setupVoice(){
  recognition.onend=()=>{if(listening&&!speaking&&!busy)setTimeout(resumeListening,500);};
  $('#micro').onclick=()=>{listening=!listening;$('#micro').setAttribute('aria-pressed',String(listening));$('#micro').textContent=listening?'◉ Vocal activé':'◎ Activer le vocal';if(listening){stopAudio();resumeListening();}else{recognition.abort();status('Microphone désactivé.');}};
 }
-async function loadBrief(){briefing=await json('./briefing.json');$('#brief-title').textContent=briefing.title||'Le briefing du jour';$('#summary').textContent=briefing.summary||'';$('#coverage').textContent=(briefing.date?'Édition du '+briefing.date+' · ':'')+(briefing.coverage||'');renderItems();}
+function selectEdition(value){
+ stopAudio();edition=value==='morning'&&bulletin.morningEdition?'morning':'latest';
+ briefing=edition==='morning'?bulletin.morningEdition:bulletin;
+ $('#morning-edition').hidden=!bulletin.morningEdition;
+ if(bulletin.morningEdition)$('#morning-edition').textContent=bulletin.morningEdition.date+' · 7 h (reconstitué)';
+ document.querySelectorAll('[data-edition]').forEach(b=>{const active=b.dataset.edition===edition;b.classList.toggle('selected',active);b.setAttribute('aria-pressed',String(active));});
+ $('#brief-title').textContent=briefing.title||'Le briefing du jour';$('#summary').textContent=briefing.summary||'';
+ $('#coverage').textContent=(briefing.date?'Édition du '+briefing.date+' · ':'')+(briefing.coverage||'');
+ setFilter('zone','all');setFilter('topic','all');
+ const url=new URL(location.href);if(edition==='morning')url.searchParams.set('edition','morning');else url.searchParams.delete('edition');history.replaceState(null,'',url);
+}
+async function loadBrief(){bulletin=await json('./briefing.json');selectEdition(edition);}
+
 async function init(){
  $('#today').textContent=new Intl.DateTimeFormat('fr-FR',{dateStyle:'full',timeZone:'America/Martinique'}).format(new Date());
  document.querySelectorAll('[data-view]').forEach(b=>b.onclick=()=>show(b.dataset.view));
  document.querySelectorAll('[data-zone]').forEach(b=>b.onclick=()=>setFilter('zone',b.dataset.zone));
+ document.querySelectorAll('[data-edition]').forEach(b=>b.onclick=()=>selectEdition(b.dataset.edition));
  $('#read').onclick=readBrief;$('#stop').onclick=()=>{stopAudio();status('Lecture arrêtée.');resumeListening();};
  $('#reload').onclick=()=>loadBrief().catch(e=>output(e.message));
  $('#ask-form').onsubmit=e=>{e.preventDefault();const q=$('#question').value.trim();if(q)command(q);};

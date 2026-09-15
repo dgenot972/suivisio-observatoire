@@ -314,5 +314,169 @@
         }
       ]
     }
-  ]
+  ],
+  "morningEdition": {
+    "date": "2026-09-14",
+    "cutoff": "2026-09-14T07:00:00-04:00",
+    "timezone": "America/Martinique",
+    "reconstructedAt": "2026-09-15T00:12:34.095340+00:00",
+    "title": "14 septembre · 7 h — édition reconstituée",
+    "coverage": "Reconstitution après coup des informations publiées avant le 14 septembre 2026 à 7 h en Martinique (11 h UTC). Ce bulletin n’a pas été produit à 7 h. Les dates de consultation affichées sont les dates réelles. Sélection de 9 informations datées ; couverture partielle DOM, France et Caraïbes. Les avis AO ne remplacent pas les DCE et rectificatifs. Les prix, stocks et niveaux de vigilance météo à 7 h n’ont pas pu être établis. Aucune nouveauté mode, design ou technologie suffisamment datée n’est retenue dans cette reconstitution.",
+    "summary": "Bonjour David. Voici la synthèse reconstituée des informations disponibles avant 7 heures, ce lundi 14 septembre 2026, heure de Martinique.\n\nPriorité appels d’offres : au Robert, le marché de maîtrise d’œuvre pour l’élargissement de la voie de Gashette annonce une remise au 18 septembre à midi, avec visite obligatoire. L’enveloppe de 800 000 euros hors taxes concerne les travaux. Aujourd’hui, la première action serait de récupérer le dossier et de confirmer les modalités de visite ainsi que le fuseau de remise.\n\nDeuxième piste : les 18 logements SIMAR Gérard Nouvet au Robert. Les lots éclairage public et basse tension, ainsi que les installations électriques, méritent une analyse. L’échéance annoncée est le 2 octobre à midi, sous réserve des rectificatifs du profil acheteur.\n\nConjoncture DOM : les notes déjà publiées montrent un climat plus fragile en Martinique et en Guadeloupe, un signal de demande plus favorable en Guyane, et un ralentissement à Mayotte. À La Réunion, le repère disponible dans notre sélection reste celui du 31 août. Pour les achats et les devis, surveiller les délais de paiement et vérifier le financement des projets.\n\nCoûts nationaux : les indices INSEE de juin indiquent une hausse mensuelle de 0,29 pour cent pour le tous corps d’état, une stabilité de l’électricité et une hausse de 2,81 pour cent pour l’étanchéité. Ce sont des indices de révision, pas les prix des matériaux ce matin. La prochaine publication est annoncée le 15 septembre.\n\nCaraïbes : Saint-Vincent dispose d’un plan de développement des entreprises associé à 4,64 millions de dollars américains d’investissements. Une piste de suivi, sans appel d’offres travaux ouvert identifié dans cette annonce.\n\nDéstockages et météo : leur état exact à 7 heures n’est pas vérifié. Les offres repérées plus tard restent consultables dans le bulletin récent. Vous pouvez écouter chaque fiche et ouvrir ses sources.",
+    "items": [
+      {
+        "id": "robert-gashette-2026",
+        "zone": "DOM",
+        "topic": "ao",
+        "title": "AO — Gashette au Robert : visite obligatoire",
+        "summary": "Ville du Robert : maîtrise d’œuvre de l’élargissement de la voie de Gashette, référence DSTM/2026/S001. L’avis indique une visite obligatoire avec attestation. Enveloppe travaux estimée : 800 000 € HT, distincte des honoraires. Échéance future selon l’avis légal ; DCE et rectificatifs du profil acheteur non contrôlés.",
+        "action": "Priorité : récupérer RC et DCE, confirmer immédiatement les modalités de visite et le fuseau horaire. Go conditionnel à la compétence maîtrise d’œuvre/VRD, à la visite et à la capacité de déposer.",
+        "published": "2026-08-25",
+        "checked": "2026-09-15T00:12:34.094344+00:00",
+        "deadline": "18 septembre 2026, 12 h — fuseau non explicité dans l’avis",
+        "sources": [
+          {
+            "title": "Avis légal publié — France-Antilles",
+            "url": "https://co.franceantilles.fr/legales/0/marches/972/20511"
+          }
+        ]
+      },
+      {
+        "id": "simar-gerard-nouvet-2026",
+        "zone": "DOM",
+        "topic": "ao",
+        "title": "AO — SIMAR Gérard Nouvet : lots électricité",
+        "summary": "Construction de 18 logements au Robert. Référence SMO/ACP/WO/GERARDNOUVET/0826/011. L’avis liste notamment lot 02 éclairage public/BT et lot 19 installations électriques ; visite non obligatoire selon l’avis. Échéance future selon l’avis légal ; DCE et rectificatifs du profil acheteur non contrôlés.",
+        "action": "Examiner les lots 02 et 19 ; récupérer les DPGF et critères du RC. Go conditionnel au chiffrage, aux moyens et aux documents exigés.",
+        "published": "2026-09-03",
+        "checked": "2026-09-15T00:12:34.095340+00:00",
+        "deadline": "2 octobre 2026, 12 h — fuseau à confirmer",
+        "sources": [
+          {
+            "title": "Avis légal publié — France-Antilles",
+            "url": "https://co.franceantilles.fr/legales/0/marches/972/20610"
+          }
+        ]
+      },
+      {
+        "id": "iedom-mq-2026t2",
+        "zone": "DOM",
+        "topic": "marches",
+        "title": "Martinique — le climat des affaires recule",
+        "summary": "Publication du 8 septembre : l’ICA atteint 99,9 au T2 2026, en baisse de 2,5 points. L’IEDOM relève une fragilisation de la consommation et de l’investissement, avec des délais de paiement encore élevés.",
+        "action": "Lecture opérationnelle : privilégier les projets financés et intégrer le délai d’encaissement dans les décisions d’achat.",
+        "published": "2026-09-08",
+        "checked": "2026-09-14T23:34:31.111Z",
+        "deadline": null,
+        "sources": [
+          {
+            "title": "Source vérifiée",
+            "url": "https://www.iedom.fr/Les-tendances-conjoncturelles-au-2e-trimestre-2026-12293?lang=fr"
+          }
+        ]
+      },
+      {
+        "id": "iedom-gp-2026t2",
+        "zone": "DOM",
+        "topic": "marches",
+        "title": "Guadeloupe — conjoncture plus fragile",
+        "summary": "L’IEDOM décrit au T2 2026 un recul du climat des affaires, qui reste au-dessus de sa moyenne de long terme. Note publiée le 7 septembre.",
+        "action": "Lecture opérationnelle : qualifier les besoins réels avant de constituer des stocks importants.",
+        "published": "2026-09-07",
+        "checked": "2026-09-14T23:34:31.111Z",
+        "deadline": null,
+        "sources": [
+          {
+            "title": "Source vérifiée",
+            "url": "https://www.iedom.fr/Tendances-conjoncturelles-2e-trimestre-2026?lang=fr"
+          }
+        ]
+      },
+      {
+        "id": "iedom-gf-2026t2",
+        "zone": "DOM",
+        "topic": "marches",
+        "title": "Guyane — un signal de demande plus favorable",
+        "summary": "Publication du 7 septembre : l’ICA progresse de 1,1 point à 105,2 au T2 2026. Les carnets de commandes sont décrits comme nettement supérieurs à leur moyenne de longue période.",
+        "action": "Piste de prospection : examiner les projets et partenaires guyanais ; cet indicateur ne constitue pas un marché disponible.",
+        "published": "2026-09-07",
+        "checked": "2026-09-14T23:34:31.111Z",
+        "deadline": null,
+        "sources": [
+          {
+            "title": "Source vérifiée",
+            "url": "https://www.iedom.fr/Les-tendances-conjoncturelles-au-2e-trimestre-2026?lang=fr"
+          }
+        ]
+      },
+      {
+        "id": "iedom-yt-2026t2",
+        "zone": "DOM",
+        "topic": "marches",
+        "title": "Mayotte — ralentissement confirmé",
+        "summary": "La note IEDOM du 8 septembre confirme le ralentissement du début d’année après la reprise post-Chido.",
+        "action": "Lecture opérationnelle : distinguer besoin de reconstruction et commande effectivement financée.",
+        "published": "2026-09-08",
+        "checked": "2026-09-14T23:34:31.111Z",
+        "deadline": null,
+        "sources": [
+          {
+            "title": "Source vérifiée",
+            "url": "https://www.iedom.fr/Les-tendances-conjoncturelles-2e-trimestre-2026?lang=fr"
+          }
+        ]
+      },
+      {
+        "id": "iedom-re-2026t2",
+        "zone": "DOM",
+        "topic": "marches",
+        "title": "La Réunion — contexte de fond à surveiller",
+        "summary": "Dernier repère consulté, publié le 31 août (hors fenêtre des sept jours) : ICA à 100,1, en baisse de 3,6 points au T2. Inflation annuelle à +1,5 % fin juin.",
+        "action": "Prendre en compte la sensibilité des coûts de transport ; aucune nouvelle statistique locale du jour n’est affirmée.",
+        "published": "2026-08-31",
+        "checked": "2026-09-14T23:34:31.111Z",
+        "deadline": null,
+        "sources": [
+          {
+            "title": "Source vérifiée",
+            "url": "https://www.iedom.fr/Tendances-conjoncturelles-au-2e-trimestre-2026?lang=fr"
+          }
+        ]
+      },
+      {
+        "id": "insee-index-2026-06",
+        "zone": "France",
+        "topic": "cours",
+        "title": "Coûts BTP — BT01 +0,29 %, étanchéité +2,81 %",
+        "summary": "Dernier tableau vérifié : mai → juin 2026, base 100 en 2010. BT01 : 137,9 → 138,3 (+0,29 %) ; BT47 électricité : 135,1 → 135,1 (0 %) ; BT53 étanchéité : 142,6 → 146,6 (+2,81 %). Variations calculées sur la même série. Ce sont des indices nationaux, pas des prix fournisseur DOM ni des cours du jour.",
+        "action": "Vérifier l’index adapté aux devis. La publication de juillet est annoncée le 15 septembre à 12 h sur le site de l’INSEE.",
+        "published": "2026-08-14",
+        "checked": "2026-09-14T23:34:31.111Z",
+        "deadline": null,
+        "sources": [
+          {
+            "title": "Source vérifiée",
+            "url": "https://www.insee.fr/fr/statistiques/9036534"
+          }
+        ]
+      },
+      {
+        "id": "cdb-svg-20260908",
+        "zone": "Caraïbes",
+        "topic": "caraibes",
+        "title": "Saint-Vincent — soutien au développement des entreprises",
+        "summary": "La CDB annonce le 8 septembre le plan stratégique 2026–2030 du Centre for Enterprise Development. Le plan d’investissement associé atteint 4,64 millions USD, dont 3,3 millions pour l’entrepreneuriat. Il s’agit d’un programme de développement, pas d’un appel d’offres travaux ouvert.",
+        "action": "Surveiller les dispositifs et partenariats qui seront publiés ; vérifier les critères d’éligibilité avant d’envisager une démarche.",
+        "published": "2026-09-08",
+        "checked": "2026-09-14T23:34:31.111Z",
+        "deadline": null,
+        "sources": [
+          {
+            "title": "Source vérifiée",
+            "url": "https://www.caribank.org/newsroom/news-and-events/cdb-support-strengthens-enterprise-development-st-vincent-and-grenadines"
+          }
+        ]
+      }
+    ]
+  }
 }
